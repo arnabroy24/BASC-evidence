@@ -1,0 +1,38 @@
+  Determining projects to restore...
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.IntegrationTests\Application.IntegrationTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\Application.UnitTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\WebUI\WebUI.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Infrastructure.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+  All projects are up-to-date for restore.
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\Application.UnitTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.IntegrationTests\Application.IntegrationTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\WebUI\WebUI.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Infrastructure.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+  Domain -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Domain\bin\Debug\net10.0\CleanArchitecture.Domain.dll
+  Application -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Application\bin\Debug\net10.0\CleanArchitecture.Application.dll
+  Domain.UnitTests -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Domain.UnitTests\bin\Debug\net10.0\CleanArchitecture.Domain.UnitTests.dll
+Test run for C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Domain.UnitTests\bin\Debug\net10.0\CleanArchitecture.Domain.UnitTests.dll (.NETCoreApp,Version=v10.0)
+VSTest version 18.0.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+  Infrastructure -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\bin\Debug\net10.0\CleanArchitecture.Infrastructure.dll
+  Application.UnitTests -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\bin\Debug\net10.0\CleanArchitecture.Application.UnitTests.dll
+Test run for C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\bin\Debug\net10.0\CleanArchitecture.Application.UnitTests.dll (.NETCoreApp,Version=v10.0)
+VSTest version 18.0.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:     5, Skipped:     0, Total:     5, Duration: 21 ms - CleanArchitecture.Domain.UnitTests.dll (net10.0)
+  WebUI -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\WebUI\bin\Debug\net10.0\WebUI.dll
+  Application.IntegrationTests -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.IntegrationTests\bin\Debug\net10.0\CleanArchitecture.Application.IntegrationTests.dll
+Test run for C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.IntegrationTests\bin\Debug\net10.0\CleanArchitecture.Application.IntegrationTests.dll (.NETCoreApp,Version=v10.0)
+VSTest version 18.0.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:    10, Skipped:     0, Total:    10, Duration: 292 ms - CleanArchitecture.Application.UnitTests.dll (net10.0)
+
+Passed!  - Failed:     0, Passed:    23, Skipped:     0, Total:    23, Duration: 2 s - CleanArchitecture.Application.IntegrationTests.dll (net10.0)

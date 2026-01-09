@@ -1,0 +1,67 @@
+# .NET 7 to .NET 10 Refactoring Task
+
+## Context
+I have a .NET 7 project that needs to be refactored to .NET 10. I have already performed baseline testing and collected evidence of current behavior. The existing QA/unit tests should remain unchanged unless refactoring is absolutely required to make them compatible with .NET 10.
+
+## Before You Begin
+1. Do NOT start coding immediately
+2. First, analyze the codebase structure and create a migration plan
+3. Present the plan to me for approval before making any changes
+
+## Migration Requirements
+
+### Phase 1: Analysis (Present plan before proceeding)
+- Scan all .csproj files and identify target frameworks
+- List all NuGet package dependencies and their current versions
+- Identify any deprecated APIs, obsolete warnings, or breaking changes between .NET 7 and .NET 10
+- Check for WebHostBuilder usage (deprecated in favor of HostBuilder/WebApplicationBuilder)
+- Identify any platform-specific code that may be affected
+- Note any Razor runtime compilation usage (obsolete in .NET 10)
+- Review test projects and their testing framework versions
+
+### Phase 2: Project File Updates
+- Update TargetFramework from net7.0 to net10.0 in all .csproj files
+- Update all Microsoft.* and System.* NuGet packages to their .NET 10 compatible versions
+- Update third-party packages to .NET 10 compatible versions
+- Add <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException> if using Blazor Identity
+- Consider adding <TreatWarningsAsErrors>true</TreatWarningsAsErrors> to catch issues early
+
+### Phase 3: Code Refactoring
+- Replace deprecated APIs with their .NET 10 equivalents
+- Update WebHostBuilder to HostBuilder or WebApplicationBuilder if present
+- Address any breaking changes in:
+  - ASP.NET Core (authentication challenge behavior changes)
+  - Entity Framework Core
+  - Blazor (if applicable)
+  - Testing platform (VSTest to MTP migration if needed)
+- Preserve existing functionality and behavior
+
+### Phase 4: Test Project Handling
+- Keep all existing QA/unit tests unchanged unless they fail to compile or run
+- If test changes are required:
+  - Document each change and why it was necessary
+  - Preserve test intent and coverage
+  - Only modify what's strictly required for .NET 10 compatibility
+- Update test framework packages (xUnit, NUnit, MSTest) to .NET 10 compatible versions
+- If using Microsoft.Testing.Platform, note the v1 to v2 migration requirements
+
+## Constraints
+- Do NOT refactor tests unless compilation or runtime errors require it
+- Do NOT add new features or optimizations not requested
+- Do NOT change business logic
+- Preserve all existing public API contracts
+- Maintain backward compatibility where possible
+
+## Output Requirements
+After each phase, provide:
+1. Summary of changes made
+2. List of files modified
+3. Any issues encountered
+4. Recommendations for manual review
+
+## Reference Documentation
+If needed, consult:
+- https://learn.microsoft.com/en-us/dotnet/core/compatibility/10.0
+- https://learn.microsoft.com/en-us/aspnet/core/migration/90-to-100
+
+Please start with Phase 1 analysis and present your migration plan before making any changes.

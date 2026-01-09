@@ -1,0 +1,36 @@
+# Codex Refactor Rules (.NET 10 upgrade)
+
+## Goals
+- Upgrade .NET Core 3.x and .NET 7 projects to .NET 10 with minimal behavior change.
+- Keep changes small, reviewable, and build/testable.
+
+## Non-negotiables
+1. Do NOT change public behavior unless required for .NET 10 compatibility.
+2. Every change must include:
+   - files modified
+   - commands to run
+   - expected output / success criteria
+3. Keep commits scoped:
+   - 1 logical change per commit
+   - avoid drive-by refactors
+
+## Workflow
+- Always start by reading the relevant csproj + Directory.Build.* + NuGet.config + global.json.
+- Prefer incremental upgrades:
+  - netcoreapp3.1 → net8.0 → net10.0 (if needed)
+  - net7.0 → net10.0
+- First make it compile, then fix tests, then modernize.
+
+## Safety
+- No mass formatting changes.
+- No package version bumps unless required.
+- If a package is incompatible, propose 2 options:
+  1) minimal compatible upgrade
+  2) replacement package (only if required)
+
+## Output format for each task
+- Summary
+- Files changed
+- Patch (diff)
+- Commands to validate
+- Notes / risks

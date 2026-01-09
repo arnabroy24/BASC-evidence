@@ -1,0 +1,28 @@
+  Determining projects to restore...
+  Restored C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Application\Application.csproj (in 473 ms).
+  Restored C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\Application.UnitTests.csproj (in 475 ms).
+  Restored C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Infrastructure.csproj (in 475 ms).
+  Restored C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Domain.UnitTests\Domain.UnitTests.csproj (in 474 ms).
+  Restored C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Domain\Domain.csproj (in 473 ms).
+  Restored C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\WebUI\WebUI.csproj (in 519 ms).
+  Restored C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.IntegrationTests\Application.IntegrationTests.csproj (in 519 ms).
+  Domain -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Domain\bin\Debug\net10.0\CleanArchitecture.Domain.dll
+  Application -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Application\bin\Debug\net10.0\CleanArchitecture.Application.dll
+  Domain.UnitTests -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Domain.UnitTests\bin\Debug\net10.0\CleanArchitecture.Domain.UnitTests.dll
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Identity\IdentityService.cs(29,16): warning CS8603: Possible null reference return. [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Infrastructure.csproj]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Persistence\ApplicationDbContextInitialiser.cs(69,63): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'roles' of type 'IEnumerable<string>' in 'Task<IdentityResult> UserManager<ApplicationUser>.AddToRolesAsync(ApplicationUser user, IEnumerable<string> roles)' due to differences in the nullability of reference types. [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Infrastructure.csproj]
+  Infrastructure -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\bin\Debug\net10.0\CleanArchitecture.Infrastructure.dll
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\Common\Mappings\MappingTests.cs(48,16): warning SYSLIB0050: 'FormatterServices' is obsolete: 'Formatter-based serialization is obsolete and should not be used.' (https://aka.ms/dotnet-warnings/SYSLIB0050) [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\Application.UnitTests.csproj]
+  Application.UnitTests -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\bin\Debug\net10.0\CleanArchitecture.Application.UnitTests.dll
+  WebUI -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\WebUI\bin\Debug\net10.0\WebUI.dll
+  Application.IntegrationTests -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.IntegrationTests\bin\Debug\net10.0\CleanArchitecture.Application.IntegrationTests.dll
+
+Build succeeded.
+
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Identity\IdentityService.cs(29,16): warning CS8603: Possible null reference return. [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Infrastructure.csproj]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Persistence\ApplicationDbContextInitialiser.cs(69,63): warning CS8620: Argument of type 'string?[]' cannot be used for parameter 'roles' of type 'IEnumerable<string>' in 'Task<IdentityResult> UserManager<ApplicationUser>.AddToRolesAsync(ApplicationUser user, IEnumerable<string> roles)' due to differences in the nullability of reference types. [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Infrastructure.csproj]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\Common\Mappings\MappingTests.cs(48,16): warning SYSLIB0050: 'FormatterServices' is obsolete: 'Formatter-based serialization is obsolete and should not be used.' (https://aka.ms/dotnet-warnings/SYSLIB0050) [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\Application.UnitTests.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.95

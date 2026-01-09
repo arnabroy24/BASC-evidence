@@ -1,0 +1,398 @@
+Using launch settings from Src\WebUI\Properties\launchSettings.json...
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Infrastructure\Infrastructure.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\WebUI.csproj]
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Persistence\Persistence.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\WebUI.csproj]
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\WebUI.csproj : warning NU1510: PackageReference Microsoft.Extensions.Logging.Debug will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\WebUI.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\WebUI.csproj : warning NU1510: PackageReference Microsoft.Extensions.Logging.Debug will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\WebUI.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Persistence\Persistence.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Infrastructure\Infrastructure.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: Microsoft.EntityFrameworkCore.Migrations[20411]
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      DECLARE @result int;
+      EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+      SELECT @result
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+      BEGIN
+          CREATE TABLE [__EFMigrationsHistory] (
+              [MigrationId] nvarchar(150) NOT NULL,
+              [ProductVersion] nvarchar(32) NOT NULL,
+              CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+          );
+      END;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+info: Microsoft.EntityFrameworkCore.Migrations[20405]
+      No migrations were applied. The database is already up to date.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      DECLARE @result int;
+      EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+      SELECT @result
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: Microsoft.EntityFrameworkCore.Migrations[20411]
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      DECLARE @result int;
+      EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+      SELECT @result
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+      BEGIN
+          CREATE TABLE [__EFMigrationsHistory] (
+              [MigrationId] nvarchar(150) NOT NULL,
+              [ProductVersion] nvarchar(32) NOT NULL,
+              CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+          );
+      END;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+info: Microsoft.EntityFrameworkCore.Migrations[20405]
+      No migrations were applied. The database is already up to date.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      DECLARE @result int;
+      EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+      SELECT @result
+info: Northwind.Application.System.Commands.SeedSampleData.SeedSampleDataCommand[0]
+      Northwind Request: SeedSampleDataCommand (null) Northwind.Application.System.Commands.SeedSampleData.SeedSampleDataCommand
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[63]
+      User profile is available. Using 'C:\Users\arnab\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE
+          WHEN EXISTS (
+              SELECT 1
+              FROM [Customers] AS [c]) THEN CAST(1 AS bit)
+          ELSE CAST(0 AS bit)
+      END
+info: Duende.IdentityServer.Startup[0]
+      Starting Duende IdentityServer version 6.0.4+9dfb7e94e795f55b2c063d54d11b70aae05e4e07 (.NET 10.0.1)
+warn: Duende[0]
+      You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duendesoftware.com/contact
+info: Microsoft.Extensions.DependencyInjection.ConfigureApiResources[2]
+      Configuring local API resource 'Northwind.WebUIAPI'.
+info: Microsoft.AspNetCore.ApiAuthorization.IdentityServer.ConfigureClients[3]
+      Configuring client 'Northwind.WebUI'.
+info: Microsoft.AspNetCore.ApiAuthorization.IdentityServer.ConfigureSigningCredentials[10]
+      Loading development key at 'C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\obj/tempkey.json'.
+info: Microsoft.AspNetCore.ApiAuthorization.IdentityServer.Configuration.ConfigureClientScopes[8]
+      Resource 'Northwind.WebUIAPI' allows all applications.
+info: Microsoft.AspNetCore.ApiAuthorization.IdentityServer.Configuration.ConfigureClientScopes[5]
+      Identity resource 'openid' allows all applications.
+info: Microsoft.AspNetCore.ApiAuthorization.IdentityServer.Configuration.ConfigureClientScopes[5]
+      Identity resource 'profile' allows all applications.
+info: Duende.IdentityServer.Startup[0]
+      Using explicitly configured authentication scheme Identity.Application for IdentityServer
+dbug: Duende.IdentityServer.Startup[0]
+      Using IdentityServerJwt as default ASP.NET Core scheme for authentication
+dbug: Duende.IdentityServer.Startup[0]
+      Using Identity.External as default ASP.NET Core scheme for sign-in
+dbug: Duende.IdentityServer.Startup[0]
+      Using Identity.External as default ASP.NET Core scheme for sign-out
+dbug: Duende.IdentityServer.Startup[0]
+      Using IdentityServerJwt as default ASP.NET Core scheme for challenge
+dbug: Duende.IdentityServer.Startup[0]
+      Using IdentityServerJwt as default ASP.NET Core scheme for forbid
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: https://localhost:44376
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:54608
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/sockjs-node/info?t=1767436424094 - - -
+dbug: Duende.IdentityServer.Startup[0]
+      Login Url: /Identity/Account/Login
+dbug: Duende.IdentityServer.Startup[0]
+      Login Return Url Parameter: ReturnUrl
+dbug: Duende.IdentityServer.Startup[0]
+      Logout Url: /Identity/Account/Logout
+dbug: Duende.IdentityServer.Startup[0]
+      ConsentUrl Url: /consent
+dbug: Duende.IdentityServer.Startup[0]
+      Consent Return Url Parameter: returnUrl
+dbug: Duende.IdentityServer.Startup[0]
+      Error Url: /Home
+dbug: Duende.IdentityServer.Startup[0]
+      Error Id Parameter: errorId
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 CONNECT https://localhost:44376/sockjs-node/828/i4gygu4q/websocket - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/sockjs-node/info?t=1767436424094 - 200 - application/json;+charset=UTF-8 79.8629ms
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/ - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/ - 304 - - 8.3361ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 CONNECT https://localhost:44376/sockjs-node/828/i4gygu4q/websocket - 200 - - 36.9320ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/styles.css - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/runtime.js - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/styles.css - 304 - - 2.6848ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/runtime.js - 304 - - 1.7774ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/polyfills.js - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/vendor.js - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/main.js - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/polyfills.js - 304 - - 2.7528ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/main.js - 304 - - 2.4627ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/vendor.js - 304 - - 5.7412ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller Northwind.WebUI.Controllers.OidcConfigurationController (Northwind.WebUI).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller Northwind.WebUI.Controllers.OidcConfigurationController (Northwind.WebUI).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI) in 1.2745ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI) in 30.266ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - 200 291 application/json;+charset=utf-8 44.2907ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - 200 291 application/json;+charset=utf-8 3.9477ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/sockjs-node/info?t=1767436424504 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/sockjs-node/info?t=1767436424504 - 200 - application/json;+charset=UTF-8 1.1632ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 CONNECT https://localhost:44376/sockjs-node/120/vung311c/websocket - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/ - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/ - 304 - - 2.3969ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 CONNECT https://localhost:44376/sockjs-node/120/vung311c/websocket - 200 - - 51231.4316ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/styles.css - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/runtime.js - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/polyfills.js - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/vendor.js - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/main.js - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/styles.css - 304 - - 1.9451ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/runtime.js - 304 - - 2.2088ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/polyfills.js - 304 - - 3.0368ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/vendor.js - 304 - - 6.4366ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/main.js - 304 - - 7.7590ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller Northwind.WebUI.Controllers.OidcConfigurationController (Northwind.WebUI).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI) in 1.0498ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - 200 291 application/json;+charset=utf-8 1.7436ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller Northwind.WebUI.Controllers.OidcConfigurationController (Northwind.WebUI).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI) in 0.2473ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - 200 291 application/json;+charset=utf-8 0.7210ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/sockjs-node/info?t=1767436475985 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/sockjs-node/info?t=1767436475985 - 200 - application/json;+charset=UTF-8 1.4438ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 CONNECT https://localhost:44376/sockjs-node/787/mhhrbsqw/websocket - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/api/Products/GetAll - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Northwind.WebUI.Controllers.ProductsController.GetAll (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetAll", controller = "Products", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Northwind.Application.Products.Queries.GetProductsList.ProductsListVm]] GetAll() on controller Northwind.WebUI.Controllers.ProductsController (Northwind.WebUI).
+info: Northwind.Application.Products.Queries.GetProductsList.GetProductsListQuery[0]
+      Northwind Request: GetProductsListQuery (null) Northwind.Application.Products.Queries.GetProductsList.GetProductsListQuery
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [p].[ProductID] AS [ProductId], [p].[ProductName], [p].[UnitPrice], [p].[SupplierID] AS [SupplierId], CASE
+          WHEN [s].[SupplierID] IS NOT NULL THEN [s].[CompanyName]
+          ELSE N''
+      END AS [SupplierCompanyName], [p].[CategoryID] AS [CategoryId], CASE
+          WHEN [c].[CategoryID] IS NOT NULL THEN [c].[CategoryName]
+          ELSE N''
+      END AS [CategoryName], [p].[Discontinued]
+      FROM [Products] AS [p]
+      LEFT JOIN [Suppliers] AS [s] ON [p].[SupplierID] = [s].[SupplierID]
+      LEFT JOIN [Categories] AS [c] ON [p].[CategoryID] = [c].[CategoryID]
+      ORDER BY [p].[ProductName]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'Northwind.Application.Products.Queries.GetProductsList.ProductsListVm'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Northwind.WebUI.Controllers.ProductsController.GetAll (Northwind.WebUI) in 267.7361ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Northwind.WebUI.Controllers.ProductsController.GetAll (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/api/Products/GetAll - 200 15038 application/json;+charset=utf-8 279.6127ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/ - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/ - 304 - - 1.8128ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 CONNECT https://localhost:44376/sockjs-node/787/mhhrbsqw/websocket - 200 - - 2467.2462ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/styles.css - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/runtime.js - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/polyfills.js - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/vendor.js - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/main.js - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/polyfills.js - 304 - - 1.6042ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/styles.css - 304 - - 2.3418ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/vendor.js - 304 - - 5.1807ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/runtime.js - 304 - - 6.2242ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/main.js - 304 - - 7.4533ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller Northwind.WebUI.Controllers.OidcConfigurationController (Northwind.WebUI).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI) in 0.4991ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - 200 291 application/json;+charset=utf-8 0.9732ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller Northwind.WebUI.Controllers.OidcConfigurationController (Northwind.WebUI).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI) in 0.3326ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'Northwind.WebUI.Controllers.OidcConfigurationController.GetClientRequestParameters (Northwind.WebUI)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/_configuration/Northwind.WebUI - 200 291 application/json;+charset=utf-8 0.7394ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44376/sockjs-node/info?t=1767436478604 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44376/sockjs-node/info?t=1767436478604 - 200 - application/json;+charset=UTF-8 1.5323ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 CONNECT https://localhost:44376/sockjs-node/055/vx12l5vn/websocket - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware[10]
+      No CORS policy found for the specified request.
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

@@ -1,0 +1,69 @@
+I need help refactoring a .NET project to .NET 10. Please follow this systematic approach:
+
+## Step 1: Project Analysis
+First, analyze the current project structure:
+- Identify the current .NET version (either .NET Core 3 or .NET 7)
+- Review all .csproj files to identify target frameworks, package references, and dependencies
+- Scan the codebase for deprecated APIs, obsolete patterns, and framework-specific code
+- List all NuGet packages and their versions
+- Identify any custom middleware, startup configurations, or framework-specific implementations
+
+## Step 2: Migration Planning
+Create a migration plan that includes:
+- Breaking changes between the current version and .NET 10
+- Package upgrades required (with version compatibility)
+- Code patterns that need updating
+- API changes that affect the codebase
+- Performance optimization opportunities in .NET 10
+
+## Step 3: Refactoring Execution
+Proceed with the refactoring in this order:
+
+1. **Update project files (.csproj)**
+   - Change TargetFramework to net10.0
+   - Update all NuGet package references to .NET 10 compatible versions
+   - Remove obsolete package references
+   - Update SDK version if needed
+
+2. **Update configuration files**
+   - Modernize Program.cs and Startup.cs (if applicable) to .NET 10 patterns
+   - Update appsettings.json if new configuration patterns are available
+   - Update launchSettings.json for .NET 10
+
+3. **Refactor code files**
+   - Replace deprecated APIs with modern equivalents
+   - Update using statements and namespace declarations to file-scoped namespaces (where appropriate)
+   - Modernize code to use .NET 10 features (minimal APIs, global usings, etc.)
+   - Update dependency injection patterns if needed
+   - Refactor middleware and HTTP pipeline configuration
+
+4. **Handle breaking changes**
+   - Document each breaking change encountered
+   - Provide the old code vs new code for my review
+   - Explain why each change is necessary
+
+## Step 4: Test Case Review
+Regarding my existing QA tests:
+- First, attempt to keep all existing test cases running with minimal changes
+- Only refactor tests if they rely on deprecated testing patterns or frameworks
+- If test refactoring is needed, clearly mark which tests were changed and why
+- Ensure test coverage remains the same or improves
+- Document any testing framework upgrades (e.g., xUnit, NUnit, MSTest versions)
+
+## Step 5: Documentation
+After refactoring, provide:
+- A summary of all changes made
+- List of deprecated features replaced
+- New .NET 10 features leveraged
+- Any potential performance improvements
+- Migration checklist for verification
+- Known issues or areas requiring manual review
+
+## Important Guidelines
+- Preserve existing functionality - this is a refactoring, not a rewrite
+- Maintain code style and patterns unless they're deprecated
+- Flag any changes that might affect runtime behavior
+- Prioritize backward compatibility where possible
+- Ask before making architectural changes
+
+Please start by analyzing the project structure and current .NET version, then proceed step by step. Wait for my confirmation before executing large-scale changes.

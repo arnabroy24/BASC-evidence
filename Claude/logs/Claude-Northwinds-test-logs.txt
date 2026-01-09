@@ -1,0 +1,54 @@
+  Determining projects to restore...
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Persistence\Persistence.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Northwind.sln]
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\Persistence.IntegrationTests\Persistence.IntegrationTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Northwind.sln]
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\Application.UnitTests\Application.UnitTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Northwind.sln]
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Infrastructure\Infrastructure.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Northwind.sln]
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\WebUI.csproj : warning NU1510: PackageReference Microsoft.Extensions.Logging.Debug will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary. [C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Northwind.sln]
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\WebUI.IntegrationTests\WebUI.IntegrationTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Northwind.sln]
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\WebUI.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Northwind.sln]
+  All projects are up-to-date for restore.
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\Persistence.IntegrationTests\Persistence.IntegrationTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\Application.UnitTests\Application.UnitTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\WebUI.IntegrationTests\WebUI.IntegrationTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\WebUI.csproj : warning NU1510: PackageReference Microsoft.Extensions.Logging.Debug will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\WebUI.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Persistence\Persistence.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Infrastructure\Infrastructure.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+  Domain -> C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Domain\bin\Debug\net10.0\Northwind.Domain.dll
+  Common -> C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Common\bin\Debug\net10.0\Northwind.Common.dll
+  Domain.UnitTests -> C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\Domain.UnitTests\bin\Debug\net10.0\Northwind.Domain.UnitTests.dll
+Test run for C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\Domain.UnitTests\bin\Debug\net10.0\Northwind.Domain.UnitTests.dll (.NETCoreApp,Version=v10.0)
+  Application -> C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Application\bin\Debug\net10.0\Northwind.Application.dll
+VSTest version 18.0.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+  Infrastructure -> C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Infrastructure\bin\Debug\net10.0\Northwind.Infrastructure.dll
+  Persistence -> C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\Persistence\bin\Debug\net10.0\Northwind.Persistence.dll
+
+Passed!  - Failed:     0, Passed:     7, Skipped:     0, Total:     7, Duration: 9 ms - Northwind.Domain.UnitTests.dll (net10.0)
+  Persistence.IntegrationTests -> C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\Persistence.IntegrationTests\bin\Debug\net10.0\Persistence.IntegrationTests.dll
+  Application.UnitTests -> C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\Application.UnitTests\bin\Debug\net10.0\Northwind.Application.UnitTests.dll
+Test run for C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\Persistence.IntegrationTests\bin\Debug\net10.0\Persistence.IntegrationTests.dll (.NETCoreApp,Version=v10.0)
+Test run for C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\Application.UnitTests\bin\Debug\net10.0\Northwind.Application.UnitTests.dll (.NETCoreApp,Version=v10.0)
+VSTest version 18.0.1 (x64)
+
+VSTest version 18.0.1 (x64)
+
+  WebUI -> C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Src\WebUI\bin\Debug\net10.0\Northwind.WebUI.dll
+Starting test execution, please wait...
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+  WebUI.IntegrationTests -> C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\WebUI.IntegrationTests\bin\Debug\net10.0\Northwind.WebUI.IntegrationTests.dll
+Test run for C:\Users\arnab\Desktop\Projcets\NorthwindTraders\Tests\WebUI.IntegrationTests\bin\Debug\net10.0\Northwind.WebUI.IntegrationTests.dll (.NETCoreApp,Version=v10.0)
+VSTest version 18.0.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:     2, Skipped:     0, Total:     2, Duration: 652 ms - Persistence.IntegrationTests.dll (net10.0)
+
+Passed!  - Failed:     0, Passed:    15, Skipped:     0, Total:    15, Duration: 764 ms - Northwind.Application.UnitTests.dll (net10.0)
+
+Passed!  - Failed:     0, Passed:    17, Skipped:     0, Total:    17, Duration: 2 s - Northwind.WebUI.IntegrationTests.dll (net10.0)

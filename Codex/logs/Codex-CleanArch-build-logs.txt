@@ -1,0 +1,32 @@
+  Determining projects to restore...
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\WebUI\WebUI.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\Application.UnitTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Infrastructure.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.IntegrationTests\Application.IntegrationTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+  All projects are up-to-date for restore.
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Infrastructure.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.IntegrationTests\Application.IntegrationTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\Application.UnitTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\WebUI\WebUI.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+  Domain -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Domain\bin\Debug\net10.0\CleanArchitecture.Domain.dll
+  Application -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Application\bin\Debug\net10.0\CleanArchitecture.Application.dll
+  Domain.UnitTests -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Domain.UnitTests\bin\Debug\net10.0\CleanArchitecture.Domain.UnitTests.dll
+  Infrastructure -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\bin\Debug\net10.0\CleanArchitecture.Infrastructure.dll
+  Application.UnitTests -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\bin\Debug\net10.0\CleanArchitecture.Application.UnitTests.dll
+  WebUI -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\WebUI\bin\Debug\net10.0\WebUI.dll
+  Application.IntegrationTests -> C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.IntegrationTests\bin\Debug\net10.0\CleanArchitecture.Application.IntegrationTests.dll
+
+Build succeeded.
+
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\WebUI\WebUI.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\Application.UnitTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Infrastructure.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.IntegrationTests\Application.IntegrationTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98 [C:\Users\arnab\Desktop\Projcets\CleanArchitecture\CleanArchitecture.sln]
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\Infrastructure\Infrastructure.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.IntegrationTests\Application.IntegrationTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\tests\Application.UnitTests\Application.UnitTests.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+C:\Users\arnab\Desktop\Projcets\CleanArchitecture\src\WebUI\WebUI.csproj : warning NU1902: Package 'Duende.IdentityServer' 6.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-ff4q-64jc-gx98
+    8 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.01

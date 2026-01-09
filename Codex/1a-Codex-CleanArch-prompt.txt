@@ -1,0 +1,39 @@
+You are migrating this repository (CleanArchitecture) from .NET 7 to .NET 10 on branch migrate/net10-codex.
+
+GOAL
+Upgrade the codebase to build, run, and test successfully on .NET 10, while preserving runtime behavior. Demonstrate clean refactoring during the upgrade: modernize code where it is safe and aligned with .NET 10, but do not introduce behavior changes.
+
+REQUIREMENTS
+1) Update target frameworks:
+   - Update all projects from net7.0 to net10.0.
+   - Update solution-level settings as needed (Directory.Build.props, Directory.Packages.props, etc. if present).
+   - Update global.json to SDK 10.0.101 (rollForward latestFeature).
+
+2) Dependency alignment:
+   - Update NuGet packages to versions compatible with .NET 10.
+   - Prefer the lowest necessary upgrades to regain compatibility.
+   - Avoid unnecessary package churn.
+
+3) Build & test must be green:
+   - After each logical change, run:
+     - dotnet restore
+     - dotnet build -c Release
+     - dotnet test -c Release
+   - Keep commits small and focused (one change-set at a time).
+
+4) Tests / QA:
+   - Do NOT change tests unless required due to framework/runtime behavior changes, package upgrades, or nondeterminism.
+   - If tests must change, keep intent identical and explain why the old assertion is no longer valid under .NET 10 (be specific).
+
+5) Refactor discipline:
+   - If refactoring is needed to accommodate new analyzers / breaking changes, keep it minimal.
+   - Prefer straightforward refactors: simplify code, remove obsolete APIs, update DI registrations, update minimal hosting patterns only if necessary.
+   - Do not change business logic.
+
+OUTPUTS
+- Provide a migration summary:
+  - list of target framework changes
+  - key dependency upgrades (package name + old/new versions)
+  - any code refactors forced by .NET 10
+  - any test updates and why
+- Confirm final commands run and that build/tests pass.
